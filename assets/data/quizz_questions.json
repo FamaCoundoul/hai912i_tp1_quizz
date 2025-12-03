@@ -1,0 +1,26 @@
+[
+  {
+    "id": "1",
+    "questionText": "Paris est la capitale de la France.",
+    "isCorrect": true,
+    "theme": "France",
+    "difficulty": 1,
+    "image": "./images/france.png"
+  },
+  {
+    "id": "2",
+    "questionText": "Le Mont-Blanc est le plus haut sommet des Alpes.",
+    "isCorrect": true,
+    "theme": "France",
+    "difficulty": 2,
+    "image": "./images/france.png"
+  },
+  {
+    "id": "3",
+    "questionText": "La France est une monarchie depuis 1958.",
+    "isCorrect": false,
+    "theme": "France",
+    "difficulty": 3,
+    "image": "./images/france.png"
+  }
+]
