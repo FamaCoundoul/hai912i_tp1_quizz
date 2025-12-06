@@ -1,8 +1,9 @@
 import 'dart:convert';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'question_model.dart';
-import 'quizz_page.dart';
+import 'package:hai912i_tp1_quizz/pages/WelcomePage.dart';
+import 'model/question_model.dart';
+import 'pages/QuizzPage.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -25,13 +26,13 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Quizz App',
+      title: 'Quiz App',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
-        primarySwatch: Colors.blueGrey,
+        primarySwatch: Colors.teal,
         useMaterial3: true,
       ),
-      home: QuizzPage(title: "Questions/Réponses", questions: questions),
+      home: WelcomePage(questions: questions),
     );
   }
 }

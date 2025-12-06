@@ -1,3 +1,6 @@
+// ========================================
+// question_model.dart
+// ========================================
 class Question {
   final String id;
   final String questionText;
@@ -5,6 +8,8 @@ class Question {
   final String theme;
   final int difficulty;
   final String image;
+  final List<String> options;
+  final String correctAnswer;
 
   Question({
     required this.id,
@@ -12,7 +17,9 @@ class Question {
     required this.isCorrect,
     required this.theme,
     required this.difficulty,
-    required this.image
+    required this.image,
+    required this.options,
+    required this.correctAnswer,
   });
 
   factory Question.fromJson(Map<String, dynamic> json) {
@@ -25,9 +32,10 @@ class Question {
       image: json['image'] != null
           ? json['image']!.replaceFirst('./', 'assets/')
           : "assets/images/placeholder.png",
-
-
-
+      options: json['options'] != null
+          ? List<String>.from(json['options'])
+          : [],
+      correctAnswer: json['correctAnswer'] ?? "",
     );
   }
 }
