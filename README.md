@@ -6,6 +6,13 @@ Une application de quiz interactive et moderne développée avec Flutter, offran
 
 <img src="./rendu.png" alt="Aperçu de l'application" width="300"/>
 
+<div style="display: flex; gap: 20px;">
+  <img src="./rendu.png" width="250" alt="accueil"/>
+  <img src="./quizz.png" width="250" alt="quizz"/>
+  <img src="./classe.png" width="250" alt="classement"/>
+</div>
+
+
 ##  Objectifs Pédagogiques
 
 Cette application démontre la maîtrise des concepts suivants :
