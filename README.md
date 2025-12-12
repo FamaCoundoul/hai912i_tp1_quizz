@@ -4,6 +4,8 @@
 
 Une application de quiz interactive et moderne développée avec Flutter, offrant une expérience utilisateur fluide avec trois interfaces distinctes : page d'accueil, page de quiz avec timer, et tableau des scores (leaderboard).
 
+<img src="./rendu.png" alt="Aperçu de l'application" width="300"/>
+
 ##  Objectifs Pédagogiques
 
 Cette application démontre la maîtrise des concepts suivants :

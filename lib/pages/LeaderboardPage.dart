@@ -32,7 +32,7 @@ class LeaderboardPage extends StatelessWidget {
   Widget build(BuildContext context) {
     // Données fictives du leaderboard
     final List<Map<String, dynamic>> leaderboard = [
-      {'name': 'David James', 'score': 9, 'avatar': '👨‍💼'},
+      {'name': 'Fama Coundoul', 'score': 9, 'avatar': '👨‍💼'},
       {'name': 'John Deh', 'score': 8, 'avatar': '👨‍🎓'},
       {'name': 'Michael', 'score': 8, 'avatar': '👨‍💻'},
       {'name': 'Smith Carol', 'score': 6, 'avatar': '👩‍🔬'},
